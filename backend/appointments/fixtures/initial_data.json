@@ -1,0 +1,371 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$OxdLN8lKb09L9w7kPMxDLo$M3JE2CX2K61jxsQ7rWkqKJkiVsO+hlLbLCsMZssKjkY=",
+    "last_login": "2026-03-25T00:13:31.816Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@prueba.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-03-24T03:38:08.108Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$F6MFA0qPman0v2f31ejO4c$lChunQ5cvXcPtms145OGQyKKY8cNwZ5uU5x952N0f/I=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "operador1",
+    "first_name": "",
+    "last_name": "",
+    "email": "operador1@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-24T23:45:54.331Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$R2EMwcdSpZpzWDqWXadGFp$n0X+1mCBNgmc+UwZY7LpN2sONm3k3lep1X6v9gCJ2Eg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "operador2",
+    "first_name": "",
+    "last_name": "",
+    "email": "operador2@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-03-24T23:45:54.717Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "0f2c3fa6-29e4-4a88-9be6-c8caa381d9d4",
+  "fields": {
+    "scheduled_at": "2026-03-26T13:00:00Z",
+    "supplier": "C",
+    "product_line": "Pantalones",
+    "status": "Entregada",
+    "delivered_at": "2026-03-26T15:30:00Z",
+    "observations": "",
+    "created_by": 1,
+    "created_at": "2026-03-25T00:45:26.067Z",
+    "updated_at": "2026-03-25T00:45:26.067Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "1987ce58-2ea6-4fea-affc-8d2f70bc7d08",
+  "fields": {
+    "scheduled_at": "2026-03-28T14:00:00Z",
+    "supplier": "B",
+    "product_line": "Accesorios",
+    "status": "Entregada",
+    "delivered_at": "2026-03-28T17:00:00Z",
+    "observations": "",
+    "created_by": 2,
+    "created_at": "2026-03-25T00:49:37.035Z",
+    "updated_at": "2026-03-25T00:49:37.035Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "1b84b847-953b-4db0-9509-86244f699c75",
+  "fields": {
+    "scheduled_at": "2026-03-26T14:00:00Z",
+    "supplier": "A",
+    "product_line": "Accesorios",
+    "status": "Entregada",
+    "delivered_at": "2026-03-26T16:00:00Z",
+    "observations": "",
+    "created_by": 1,
+    "created_at": "2026-03-25T00:46:12.388Z",
+    "updated_at": "2026-03-25T00:46:12.388Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "3552874f-df44-4713-a8d0-b62c5d257a8e",
+  "fields": {
+    "scheduled_at": "2026-04-01T13:00:00Z",
+    "supplier": "A",
+    "product_line": "Camisetas",
+    "status": "Programada",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 1,
+    "created_at": "2026-03-25T00:27:46.314Z",
+    "updated_at": "2026-03-25T00:27:46.314Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "5c2bfbcd-a210-4a02-8db3-da5bfab13243",
+  "fields": {
+    "scheduled_at": "2026-03-27T13:00:00Z",
+    "supplier": "B",
+    "product_line": "Camisetas",
+    "status": "Entregada",
+    "delivered_at": "2026-03-27T14:30:00Z",
+    "observations": "",
+    "created_by": 1,
+    "created_at": "2026-03-25T00:47:18.385Z",
+    "updated_at": "2026-03-25T00:47:18.385Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "670bb7bb-2bb1-4c34-81e7-961567eff303",
+  "fields": {
+    "scheduled_at": "2026-04-05T13:00:00Z",
+    "supplier": "A",
+    "product_line": "Accesorios",
+    "status": "En proceso",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 2,
+    "created_at": "2026-03-25T00:30:12.891Z",
+    "updated_at": "2026-03-25T00:30:12.891Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "676d0442-93e3-411d-9abb-a43552e293f1",
+  "fields": {
+    "scheduled_at": "2026-04-08T13:00:00Z",
+    "supplier": "A",
+    "product_line": "Zapatos",
+    "status": "Cancelada",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 3,
+    "created_at": "2026-03-25T00:33:25.738Z",
+    "updated_at": "2026-03-25T00:33:25.738Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "8c9f0ac2-be49-46a5-b666-bd7de8f9835e",
+  "fields": {
+    "scheduled_at": "2026-03-28T13:00:00Z",
+    "supplier": "A",
+    "product_line": "Pantalones",
+    "status": "Entregada",
+    "delivered_at": "2026-03-28T15:00:00Z",
+    "observations": "",
+    "created_by": 2,
+    "created_at": "2026-03-25T00:48:41.253Z",
+    "updated_at": "2026-03-25T00:48:41.253Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "91aa8c09-8e3b-4f43-84ef-90d613a5f794",
+  "fields": {
+    "scheduled_at": "2026-04-10T15:00:00Z",
+    "supplier": "C",
+    "product_line": "Camisetas",
+    "status": "Cancelada",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 3,
+    "created_at": "2026-03-25T00:35:00.990Z",
+    "updated_at": "2026-03-25T00:35:00.990Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "93f92586-5eb9-4be4-95cd-79b98435b2fc",
+  "fields": {
+    "scheduled_at": "2026-03-29T13:00:00Z",
+    "supplier": "C",
+    "product_line": "Camisetas",
+    "status": "Entregada",
+    "delivered_at": "2026-03-29T16:00:00Z",
+    "observations": "",
+    "created_by": 2,
+    "created_at": "2026-03-25T00:50:25.525Z",
+    "updated_at": "2026-03-25T00:50:25.525Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "97103899-bc4e-4641-af06-d9c1ad81c65f",
+  "fields": {
+    "scheduled_at": "2026-03-25T00:55:00Z",
+    "supplier": "A",
+    "product_line": "Camisetas",
+    "status": "Entregada",
+    "delivered_at": "2026-03-25T00:56:00Z",
+    "observations": "",
+    "created_by": 1,
+    "created_at": "2026-03-25T00:54:56.242Z",
+    "updated_at": "2026-03-25T00:54:56.242Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "98edc4e4-7b11-445c-8153-d2f237ed4401",
+  "fields": {
+    "scheduled_at": "2026-04-07T15:00:00Z",
+    "supplier": "C",
+    "product_line": "Pantalones",
+    "status": "En proceso",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 2,
+    "created_at": "2026-03-25T00:31:44.424Z",
+    "updated_at": "2026-03-25T00:31:44.424Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "98f927b1-6fcd-4887-8895-cba345f5ac51",
+  "fields": {
+    "scheduled_at": "2026-04-06T14:00:00Z",
+    "supplier": "B",
+    "product_line": "Camisetas",
+    "status": "En proceso",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 2,
+    "created_at": "2026-03-25T00:30:50.756Z",
+    "updated_at": "2026-03-25T00:30:50.756Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "99fa35c6-d9c7-4e49-bbaa-dbe9e798dae3",
+  "fields": {
+    "scheduled_at": "2026-03-29T14:00:00Z",
+    "supplier": "A",
+    "product_line": "Zapatos",
+    "status": "Entregada",
+    "delivered_at": "2026-03-29T18:30:00Z",
+    "observations": "",
+    "created_by": 2,
+    "created_at": "2026-03-25T00:51:13.303Z",
+    "updated_at": "2026-03-25T00:51:13.303Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "9ef83f00-e0cb-4ef9-b8f8-1634a5dc5be6",
+  "fields": {
+    "scheduled_at": "2026-03-27T15:00:00Z",
+    "supplier": "C",
+    "product_line": "Zapatos",
+    "status": "Entregada",
+    "delivered_at": "2026-03-27T19:00:00Z",
+    "observations": "",
+    "created_by": 2,
+    "created_at": "2026-03-25T00:48:06.451Z",
+    "updated_at": "2026-03-25T00:53:17.774Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "a3b6101f-0565-4c8c-87e0-dd3379f0bae0",
+  "fields": {
+    "scheduled_at": "2026-04-11T13:00:00Z",
+    "supplier": "A",
+    "product_line": "Pantalones",
+    "status": "Cancelada",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 3,
+    "created_at": "2026-03-25T00:36:06.342Z",
+    "updated_at": "2026-03-25T00:36:06.342Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "c3915db6-ed1a-488b-b85b-b9109e4fd65f",
+  "fields": {
+    "scheduled_at": "2026-03-25T14:00:00Z",
+    "supplier": "B",
+    "product_line": "Zapatos",
+    "status": "Entregada",
+    "delivered_at": "2026-03-25T18:00:00Z",
+    "observations": "",
+    "created_by": 1,
+    "created_at": "2026-03-25T00:43:30.578Z",
+    "updated_at": "2026-03-25T00:43:30.578Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "c583fe12-8f92-4654-b15e-fb48ad0dde56",
+  "fields": {
+    "scheduled_at": "2026-04-03T15:00:00Z",
+    "supplier": "C",
+    "product_line": "Zapatos",
+    "status": "Programada",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 1,
+    "created_at": "2026-03-25T00:28:59.483Z",
+    "updated_at": "2026-03-25T00:28:59.483Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "d6216d64-1bcc-498c-a67f-117326c45061",
+  "fields": {
+    "scheduled_at": "2026-04-09T14:00:00Z",
+    "supplier": "B",
+    "product_line": "Accesorios",
+    "status": "Cancelada",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 3,
+    "created_at": "2026-03-25T00:34:10.437Z",
+    "updated_at": "2026-03-25T00:34:10.437Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "da13ac11-9f1d-4b57-aaa4-942bd8030bc5",
+  "fields": {
+    "scheduled_at": "2026-03-25T13:00:00Z",
+    "supplier": "A",
+    "product_line": "Camisetas",
+    "status": "Entregada",
+    "delivered_at": "2026-03-25T15:00:00Z",
+    "observations": "",
+    "created_by": 1,
+    "created_at": "2026-03-25T00:37:23.294Z",
+    "updated_at": "2026-03-25T00:37:23.294Z"
+  }
+},
+{
+  "model": "appointments.appointment",
+  "pk": "e20211ba-b050-42f0-8067-bf00e257a265",
+  "fields": {
+    "scheduled_at": "2026-04-02T14:00:00Z",
+    "supplier": "B",
+    "product_line": "Pantalones",
+    "status": "Programada",
+    "delivered_at": null,
+    "observations": "",
+    "created_by": 1,
+    "created_at": "2026-03-25T00:28:26.425Z",
+    "updated_at": "2026-03-25T00:28:26.425Z"
+  }
+}
+]
